@@ -1,0 +1,20 @@
+name: Skin3D
+api: 5.0.0
+version: 0.0.1
+main: Kia\Skin\Main
+
+commands:
+  setskin:
+    description: Set Skin 3D
+    permission: skin.use.cmd
+  skinnpc:
+    description: spawn a NPC 3D
+    permission: skin.npc.cmd
+
+permissions:
+  skin.use.cmd:
+    description: Skin Permission
+    default: op
+  skin.npc.cmd:
+    description: Skin Npc Permission
+    default: op
